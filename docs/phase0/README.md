@@ -1,25 +1,21 @@
 # Phase 0: Starting from zero
 
-Author: [Gwyneth Pena-Siguenza](https://twitter.com/madebygps)
+## How does this phase apply to Cyber Security?
 
-## How does this phase apply to Cloud?
-
-If you feel like you have zero tech experience but you want to get into Cloud Computing. This phase is for you. If you are already in tech and switching to cloud, 
-[Go to Phase 1: Linux and Networking fundamentals](../phase1/README.md).
+If you feel like you have zero tech experience but you want to get into Cyber Security. This phase is for you. If you are already in tech and switching to Cyber Security, [Go to Phase 1: Networking and Linux fundamentals](../phase1/README.md).
 
 
 Let's get started. 
 
-1. I think a good first step is understanding the fundamentals of IT and [this playlist](https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K) is a fantastic overview.
+1. I think a good first step is understanding the fundamentals of IT and [this video](https://youtu.be/awLnur5Yt9o) is a fantastic overview.
 
 2. The above video should give you some understanding of the following but let's dive in a little more and understand what some of the fundamentals of Cloud are.
 
+   - [What is Cyber Security](https://youtu.be/GT0daScxO18)
    - [What is Linux](https://youtu.be/PwugmcN1hf8)
    - [What is Networking](https://youtu.be/3QhU9jd03a0)
    - [What is Programming](https://youtu.be/ifo76VyrBYo)
-   - [What is Cloud Computing](https://youtu.be/eZLcyTxi8ZI)
-   - [What is DevOps](https://youtu.be/9pZ2xmsSDdo/)
-   - [What is a Cloud Engineer and how to become one](https://youtu.be/7i1WMGxyt4Q)
+
 
 
 ## Things you should be able familiar with at the end of this phase
@@ -29,7 +25,7 @@ Let's get started.
 
 ## Certifications you might want to look into 
 
-An industry standard for people getting into tech is the [CompTIA A+](https://www.comptia.org/certifications/a).
+An industry standard certification for people getting into tech is the [CompTIA A+](https://www.comptia.org/certifications/a).
 
 Is it necessary? No. Is it helpful? Depends on your learning style. Did I take the A+? Also no. Does that mean you shouldn't take it? No. Does it help your resume? Maybe.
 
@@ -46,7 +42,7 @@ However some people have told me that it's helped them land support roles like
 
 ## Jobs
 
-I'm a big fan of starting in tech at a support role and moving up. They are entry level friendly and often are willing to pay for educational material and certifications. 
+They are entry level friendly and often are willing to pay for educational material and certifications. 
 
 Also almost every company has a helpdesk, so plenty of openings to get started in!
 
@@ -55,4 +51,9 @@ Take a look at this video by KevTech on [Helpdesk interview questions](https://y
 ## What's next
 
 
-[Go to Phase 1: Linux and Networking fundamentals](../phase1/README.md)
+### [Go to Phase 1: Linux and Networking fundamentals](../phase1/README.md)
+
+___
+
+Note: You will leave this domain by accesing the links provided for references/resources. Beware of external sites asking for your personal information (e.g. phone numbers, credit cards). You may become a victim of a phishing attack! We are not responsible for any such incidents.
+
