@@ -1,79 +1,65 @@
-# Phase 2: Programming fundamentals
+# Phase 2: Linux fundamentals
 
-Author: [GPS](https://twitter.com/madebygps)
+## How does this phase apply to Cyber Security?
 
-## How does this phase apply to Cloud?
-
-You'll be using code to automate tasks and deploy infrastructure. You don't need to know how to build full applications but understanding the basics of programming will give you an upper hand. There are dedicated developer roles in cloud. For those you will need to know how to build full solutions, checkout [this video](https://youtu.be/WMUAc7bvB7M) for more info on that role.
-
-<!--truncate -->
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/WMUAc7bvB7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-In the previous step you were introduced and wrote some Bash scripts. Bash scripting is used to automate tasks and is considered a universal language for servers, since nowadays, Bash is installed by default almost on every Linux server.
-
-I think now it would be beneficial to learn some more programming skills.
-
-There are several programming languages that are popular with Cloud, like Go, Rust, .NET, JavaScript, but since you are a beginner,  I would go with [Python](https://www.python.org/). It's a very popular language and there are many quality free resources out there to learn it and it's one of the simpler languages to get started with.
-
-[Git](https://git-scm.com/) is the most popular version control tool and one of the DevOps practices. It is used to manage and share your code. GitHub is one of the most popular Git repository hosting services. Take some time now to create a [GitHub](https://github.com/) account if you don't already have one. It'll be your code portfolio and you should put as many projects as you'd like on there.
-
-## How to break down this phase
-
-I would suggest spending time on these three topics and this timeline:
-
-| Order | Topic                           |
-|-------|---------------------------------|
-| 1 | Introduction to Programming with Python  |
-| 2 | Introduction to Version Control with Git and GitHub  |
-
-Of course feel free to spend as much time as you'd like, people have asked for a timeline and breakdown so I've added it.
+Most of the servers use Linux OS. And the cloud is a bunch of Linux Servers networked together. Learning the fundamentals how to interact with these servers via commands, is what this phase is about. If you're already a Linux admin, then you can apply your skills to the Cyber Security.
 
 ## Resources
 
-| Order | Title                                                                        | Notes                                                                                       |
-| :---- | :--------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Optional     | [An introduction to Programming](https://docs.microsoft.com/learn/modules/web-development-101-introduction-programming/)                      | A great Microsoft Learn module on the topic.    |
-| 1     | [Python Crash Course](https://ehmatthes.github.io/pcc/)                      | A great Python book, also there is an Appendix in there on Git which is great!
-| 1     | [FreeCodeCamp Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw)     | One of the many amazing resources provided by [FreeCodeCamp](https://www.freecodecamp.org/) |
-1 | [Python for Beginners](https://youtu.be/jFCNu1-Xdsw) | A 44 part video series introducing you to Python |
-| 2     | [An introduction to Git](https://docs.microsoft.com/learn/modules/intro-to-git/)    | A great resource to learn Git by Microsoft Learn                                                                |
-| 2     | [FreeCodeCamp Git course](https://youtu.be/RGOj5yH7evk)                           | A great resource to learn Git by FreeCodeCamp                                                    |
+| Topics    |
+| :------------- |
+|[Linux - Intro](https://www.geeksforgeeks.org/introduction-to-linux-operating-system/)|
+| [Interactive way to learn Linux and Linux CLI!](https://linuxjourney.com/) | 
+| [Security Commands 1](https://linuxhint.com/list_essential_linux_security_commands/) | 
+| [Security Commands 2](https://tipsmake.com/20-essential-linux-security-commands) | 
+| [(Optional) Book : Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)   | 
+| [(Optional) Book : The Linux Command Line](https://nostarch.com/tlcl2) |
+| [Video : FreeCodeCamp Computer Networking Course](https://youtu.be/qiQR5rTSshw) |
 
-## Projects
 
- | Title                     | Description                                                                                                                                               |
- | :------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
- | [25 Python Projects for beginners](https://www.freecodecamp.org/news/python-projects-for-beginners/)| Do as many of these as you'd like. |
- [Create your GitHub profile readme](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) | Create a README to tell other people about yourself. Here's [mine](https://github.com/madebygps/madebygps) as an example. Rishab has a cool [one](https://github.com/rishabkumar7/rishabkumar7) too.
- | [Networking Python Projects](https://youtu.be/FGdiSJakIS4)| Build some Python and Networking skills
+## Things you should be able familiar with at the end of this phase
 
-## Things you should be familiar with at the end of this phase
+### Commands
 
-### Programming
+- Navigate with the `cd` command.
+- How to list the contents of a directory and using the `ls` command.
+- Create, copy, move, rename, directories and files with `mkdir`, `cp`, `rm`, and `touch` commands.
+- Find things with `locate`, `whereis`, `which`, and `find` commands.
+- Understand how to learn more about commands with the `which`, `man`, and `--help` commands.
+- Familiar with finding logs details in `/var/log`
+- How to display the contents of a file with `cat`, `less`, `more`, `tail`, `head`.
+- Filtering with `grep` and `sed`.
+- Redirection of standard input, output and error with `>` operator and `tee` command.
+- How to use pipelines with the `|` operator.
+- Manipulate files with `nano` or `vim`.
+- Install and uninstall packages. Depends on distro, debian based use `apt`.
+- Control permissions with `chown`, `chgrp`, `chmod` commands.
+- Creating users and the `sudo` command.
+- Process management with `ps`, `top`, `nice`, `kill`
+- Manage environment aud user defined variables with `env`, `set`, `export` commands.
+- Add directories to your `PATH`.
+- Compression and archiving with `tar`, `gzip`, `gunzip`.
+- How to access a Linux server with `ssh`.
 
-- Variables
-- Data types
-- Comments
-- Functions
-- OOP
-- Lists
-- Modules
-- Dictionaries
-- Loops
-- Control statements
-- Exceptions
-
-### Git
-
-- How to create a Git repo locally
-- How to create a GitHub repo and clone it locally.
-- How to create a git branch
-- How too add changes to a git branch
-- How to merge Git changes
-- How to document code with a README
 
 ## Certifications you might want to look into
 
-- [Python Institute certifications](https://pythoninstitute.org/certification-tracks)
+There are several Linux certifications and you can chose to study for any of them really, but a lot of them cover WAY more than what you need to know for a solid foundation and are more focused on Linux administration.
 
-Programming certifications aren't as in demand/popular than cloud ones. As with any certification, you can use it to reinforce your knowledge, but it isn't an obligation. There are plenty of cloud engineers with zero certifications.
+- [LPI essentials](https://www.lpi.org/our-certifications/linux-essentials-overview)
+- [RedHat](https://www.redhat.com/en/services/training-and-certification)
+- [Linux Foundation](https://training.linuxfoundation.org/certification-catalog/)
+- [Oracle](https://education.oracle.com/oracle-certification-path/pFamily_358)
+- [LPI](https://www.lpi.org/)
+- [Comptia Linux+](https://www.comptia.org/certifications/linux)
+
+
+Note: It's a overkill. But at the end of the day, if you want to take them, go for it :) Its not mandatory.
+  
+## What's next
+
+### [Go to Phase 3: Cyber Security](../phase3/README.md)
+
+___
+
+Note: In Resources section, you will leave this domain by accesing the links provided for references. Beware of external sites asking for your personal information (e.g. phone numbers, credit cards). You may become a victim of a phishing attack! We are not responsible for any such incidents.
