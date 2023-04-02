@@ -1,69 +1,95 @@
-# Phase 4: DevOps fundamentals
+# Phase 4: Cloud Security Fundamentals
 
-Author: [GPS](https://twitter.com/madebygps)
 
-## How does this phase apply to Cloud?
+## How does this phase apply to Cyber Security fundamentals?
 
-DevOps is all about getting your solutions to run efficiently from deployment to updates.
-It's not specific to Cloud, as you can implement DevOps practices on-prem and in hybrid environments as well. DevOps is not limited to a single role. However most companies have dedicated roles to DevOps. If your aim is to become a DevOps engineer, this phase will get you started but you'll have to go deeper.
+Security is the biggest challenge to cloud computing. As cloud adoption continues to grow, cloud security incidents and vulnerabilities are equally on the rise and as a result, demand for cloud security is raising. And it requires intermediate / expert level knowledge on Cloud and Cyber Security. 
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/YMXwThdwTiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-DevOps is a culture, and not a specific tool or service. Read up on what DevOps is. Each cloud platform has a suite of DevOps tools, I've linked a few articles here:
+Here's one of my favorite articles by [Christophe Tafani-Dereeper](https://twitter.com/christophetd) that covers Cloud Security Breaches and Vulnerabilities:
 
-- [Microsoft - What is DevOps](https://azure.microsoft.com/overview/what-is-devops/#overview)
-- [AWS - What is DevOps](https://aws.amazon.com/devops/what-is-devops/)
-- [IBM - A DevOps complete guide](https://www.ibm.com/cloud/learn/devops-a-complete-guide)
+- [Cloud Security Breaches and Vulnerabilities: 2021 in Review](https://blog.christophetd.fr/cloud-security-breaches-and-vulnerabilities-2021-in-review/)
 
-I also think it's worth reading [The Phoenix Project](https://itrevolution.com/the-phoenix-project/) it's a pretty fun read because it's a fictional story but it explains the importance of DevOps. But if you'd prefer something more like a textbook with similar ideas, check out [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/).
+I also recommend checking out [Securing DevOps: Security in the Cloud](https://www.manning.com/books/securing-devops) by [Julien Vehent](https://twitter.com/jvehent) which covers several of the core components for protecting cloud infrastructure, logging, detecting threats and so on. It even has practical and visual aids that help in learning these concepts. 
 
-You should've completed the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) in the previous phase. That project introduces you to DevOps concepts, if you haven't, go back and do so.
+Another book recommendation is [Practical Cloud Security: A Guide for Secure Design and Deployment](https://www.oreilly.com/library/view/practical-cloud-security/9781492037507/) by [Chris Dotson](https://www.linkedin.com/in/chris-dotson-6a9b55/). This book is a good complimentary resource to the previous book as it goes in-depth into various concepts, standards, frameworks and principles required for cloud security, and as the name implies, it is practical.
 
-## How to break down this phase
+Always rememeber this, you can not secure what you do not understand, so make sure to understand the architectural and core components of the cloud so that you can properly secure them.
 
-| Order | Topic                 |
-|-------|-----------------------|
-| 1 | CI/CD with GitHub Actions |
-| 2 | IaC with Terraform |
-| 3 | Containers with Docker |
-| 4 | Containers orchestration with Kubernetes |
-| 5 | Monitoring with Prometheus and Grafana |
-
-Of course feel free to spend as much time as you'd like, people have asked for a timeline and breakdown so I've added it. Every DevOps practice matters, but these are the most used on an entry/junior level. You should already be familiar with Version Control from Phase 2.
 
 ## Resources
 
-| Resource                                                        | Notes                                                                                       |
-| :------------------------------------------------------------------ | :----------------------------------------------------------------------------------------- |
-| [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://www.youtube.com/watch?v=R8_veQiYBjI)|Nana is the queen of DevOps and creates some of the best DevOps learning content out there. This tutorial will introduce you to GitHub actions.
-| [Complete Terraform Course - From BEGINNER to PRO!](https://www.youtube.com/watch?v=7xngnjfIlK4)| Learn how to use Terraform to automate your AWS infrastructure.
-| [Docker tutorial for Beginners](https://youtu.be/3c-iBn73dDE) | Complete Docker Hands-on course with a lot of demos and explaining the concepts behind, so that you really understand it.
-| [Kubernetes Crash Course for Absolute Beginners](https://youtu.be/s_o8dwzRlu4) | Hands-On Kubernetes Tutorial | Learn Kubernetes in 1 Hour - Kubernetes Course for Beginners
-| [Complete Prometheus Monitoring Tutorial](https://youtube.com/playlist?list=PLy7NrYWoggjxCF3av5JKwyG7FFF9eLeL4) | Complete Prometheus Monitoring Tutorial
 
-## Projects
+| Cloud Platform | Title  | Description  |
+|:-------------- | ------ | ------ |
+AWS, Azure & GCP | [Hacking The Cloud](https://hackingthe.cloud/)| Hacking the cloud is an encyclopedia of the attacks/tactics/techniques that are common in cloud exploitation. |
+AWS | [Flaws.Cloudf](http://flaws.cloud/)| Through a series of levels you'll learn about common mistakes and gotchas when using Amazon Web Services (AWS). |
+AWS | [Flaws2.Cloud](http://flaws2.cloud/)| Similar to the original Flaws.Cloud Challenge this tutorial teaches you AWS security concepts but this time from both an offensive and defensive perspective |
+AWS | [Cloud Goat](https://github.com/RhinoSecurityLabs/cloudgoat)| CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool that allows you to hone your cloud cybersecurity skills by creating and completing several "capture-the-flag" style scenarios. |
+AWS | [Sadcloud](https://github.com/nccgroup/sadcloud)| Sadcloud is a tool for spinning up insecure AWS infrastructure with Terraform. You can test your AWS security knowledge against these infrastructure. |
+AWS | [AWS Well-Architected Labs: Security](https://www.wellarchitectedlabs.com/security/)| The security labs are documentation and code in the format of hands-on labs to help you learn, measure, and build using architectural best practices. |
+AWS | [Attack Detection Fundamentals](https://labs.f-secure.com/blog/attack-detection-fundamentals-2021-aws-lab-1/)| This three-part series explores an end-to-end kill chain in AWS and log entries for detection & analysis. |
+Azure | [Attack Detection Fundamentals](https://labs.f-secure.com/blog/attack-detection-fundamentals-2021-azure-lab-1/)| This three-part series explores an end-to-end kill chain in Azure and log entries for detection & analysis. |
+Azure | [CONVEX](https://github.com/Azure/CONVEX)| Cloud Open-source Network Vulnerability Exploitation eXperience (CONVEX) spins up Capture The Flag environments in your Azure tenant for you to play through.  |
+Azure | [Securing Azure Infrastructure - Hands on Lab Guide](https://github.com/azurecitadel/azure-security-lab)| A hands on guide to securing azure infrastructure using various azure security controls. |
+Azure | [Azure Security Technologies](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/)| Various labs scenarios covering azure security. |
+Azure | [Create an Azure Vulnerable Lab](https://0xpwn.wordpress.com/2022/03/05/setting-up-an-azure-pentest-lab-part-1-anonymous-blob-access/)| A four-part series explaining azure vulnerabilities. |
+GCP | [GCP GOAT](https://gcpgoat.joshuajebaraj.com/)| GCP-Goat is intentionally vulnerable GCP environment to learn and practice GCP Security |
+GCP | [ThunderCTF](https://aws.amazon.com/training/)| Thunder CTF allows players to practice attacking vulnerable cloud projects on Google Cloud Platform (GCP). In each level, players are tasked with exploiting a cloud deployment to find a "secret" integer stored within it. |
+Kubernetes | [Kubernetes Goat](https://madhuakula.com/kubernetes-goat/)| Kubernetes Goat is an interactive Kuberenetes Security Learning Playground |
 
-| Title                                                        | Resource                                                                          |
-| :----------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| [DevOps Journey Using Azure DevOps](https://github.com/thomast1906/DevOps-Journey-Using-Azure-DevOps) | This tutorial/lab setup is going to take you through a DevOps journey using Azure DevOps. From setting up your pipeline to deploying an application to your Azure Kubernetes cluster! |
-| [DevOps the Hardway - Azure](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) | This tutorial contains a full, real-world solution for setting up an environment that is using DevOps technologies and practices for deploying apps and cloud services/cloud infrastructure to Azure. |
-| [DevOps the Hardway - AWS](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS) | This tutorial contains a full, real-world solution for setting up an environment that is using DevOps technologies and practices for deploying apps and cloud services/cloud infrastructure to AWS. |
+
+
+
+## Projects 
+
+
+| Cloud Platform | Title  | Description  |
+|:-------------- | ------ | ------ |
+AWS | [Threat Detection With AWS GuardDuty](https://www.youtube.com/watch?v=lLgqP4cbdWg&t=127s)| A tutorial showing how to use AWS GuardDuty to detect threats. |
+AWS | [AWS Threat Simulation & Detection](https://github.com/sbasu7241/AWS-Threat-Simulation-and-Detection/blob/main/aws.credential-access.ec2-get-password-data.md)| This doc shows the use of Stratus Red Team & SumoLogic for attack & detection/analysis. This can replicated using any other SIEM. |
+Azure | [Azure Cloud Detection Lab(Blog)](https://cyberwoxacademy.com/azure-cloud-detection-lab-project/), [Azure Cloud Detection Lab(Videos)](https://youtube.com/playlist?list=PLBNtagSCmDWw27ccfeWeiaMcpNIxpGHy4)| A hands-on project showing how to detect threats in an azure environment using Azure Sentinal. |
+Azure | [SIEM Tutorial for Beginners Azure Sentinel Tutorial MAP with LIVE CYBER ATTACKS!](https://youtu.be/RoZeVbbZ0o0)| A hands-on project showing how to set up a honey pot and analyzing malicious traffic using Azure Sentinel. |
+
 
 ## Things you should be familiar with at the end of this phase
 
-- Be able to explain each DevOps practice
-  - Why each one matters.
-  - What each one accomplishes.
-  - Most popular tools for each practice.
 
-- Have personal projects in your GitHub. For at least 2 of your projects:
-  - Have a CI/CD pipeline.
-  - Have IaC files for each project.
-  - Have monitoring implemented for each one.
-    - Make sure you can understand the logging and metrics data.
-  - If something were to go wrong with your project, understand how to troubleshoot.
+- An understanding of core IAM concepts (Users, Roles, Policies, Groups, Service Accounts/Principals, etc.)
+- An understanding of how authentication works in the cloud.
+- An understanding of secure cloud storage, compute, networking, applications and so on .
+- Common security vulnerabilites and misconfigurations in the cloud.
+- How to investigate cloud logs and determine if a cloud envrionment has been compromised.
+- How to simulate attacks against cloud environments.
+- How to deploy vulnerable infrastructure in the cloud for security testing.
+- Knowledge and usage various cloud security tools.
 
 ## Certifications you might want to look into
 
-- [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/?ch=sec&sec=rmg&d=1)
-- [Microsoft Certified: DevOps Engineer Expert](https://docs.microsoft.com/en-us/learn/certifications/devops-engineer/)
+
+- [Certified Cloud Security Professional](https://www.isc2.org/Certifications/CCSP)
+- [Microsoft Certified: Security Operations Analyst Associate](https://docs.microsoft.com/en-us/learn/certifications/security-operations-analyst/)
+- [Microsoft Certified: Azure Security Engineer Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer/)
+- [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
+- [Google Professional Cloud Security Engineer](https://cloud.google.com/certification/cloud-security-engineer)
+
+### Practical Certifications (training included)
+These are lesser know certifications but they are focused on giving you the training needed as well as hands-on certifications where you put the skills you've learned to use, rather than clicking through multiple choice questions.
+- [Certified Az Red Team Professional](https://bootcamps.pentesteracademy.com/course/ad-azure-may-21)
+- [Certified Azure Web Application Security Professional](https://bootcamps.pentesteracademy.com/course/azure-appsec-beginner-jul-22)
+- [Offensive Azure Security Professional](https://cloudbreach.io/labs/)
+
+Credits & Author: [Dayspring Johnson](https://twitter.com/daycyberwox)
+
+## What's next
+
+If you need to explore more resources or more hands-on Training related to Cyber Security, [click here](../Additional/README.md)
+
+Check sidebar for more content!
+
+[Go back to homepage](../README.md)
+
+___
+
+Note: In Resources section, you will leave this domain by accesing the links provided for references. Beware of external sites asking for your personal information (e.g. phone numbers, credit cards). You may become a victim of a phishing attack! We are not responsible for any such incidents.
+
