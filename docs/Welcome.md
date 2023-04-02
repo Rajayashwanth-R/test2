@@ -3,39 +3,50 @@ sidebar_position: 1
 ---
 
 
-[![GitHub license](https://img.shields.io/github/license/learntocloud/learn-to-cloud.svg)](https://github.com/learntocloud/learn-to-cloud/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub forks](https://img.shields.io/github/forks/learntocloud/learn-to-cloud.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/learntocloud/learn-to-cloud/network/)
-[![GitHub stars](https://img.shields.io/github/stars/learntocloud/learn-to-cloud.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/learntocloud/learn-to-cloud/stargazers/)
+# Welcome to soccy
 
-## What is Learn to Cloud?
 
-Learn to Cloud is a GUIDE (not a book or course) that originated from [this tweet](https://twitter.com/madebygps/status/1406258053427740672?lang=en). The goal is to provide an outline of skills you need to learn to get into Cloud Computing. At the end of it you should have the technical knowledge for roles like:
+**[Web version here](https://soc-cy.github.io/#/)**
 
-- System administrator.
-- Cloud Support Engineer.
-- Cloud Administrator.
 
-## Can I really get into Cloud by being self-taught?
+### One Stop to learn Cyber Security Fundamentals
 
-Yes, watch [this](https://youtu.be/kluKaLXJ2lg)
 
-## Questions? Comments? Feedback?
+SOCCY is not a book or course. Its a free GUIDE  based on our experiences. The goal is to provide an outline of skills you need to learn to get into Cyber Secuirty. At the end of it you should have the basic technical knowledge for roles like:
 
-Please open an [Issue](https://github.com/learntocloud/learn-to-cloud/issues)
+- SOC Analsyst
+- Cyber Secuirty Analyst
+- Information Security Analyst
 
-## Phases
+We tried to keep it as general and using the most popular options (in terms of content, community, and jobs) as possible. 
 
-| Order | Topic                           |
+
+| Order | Topic                           | 
 |-------|---------------------------------|
-| [optional](phase0/)  | Start from zero tech experience  |
-| [1](phase1/)  | Bash and Networking fundamentals|  
-| [2](phase2/)  | Programming fundamentals |
-| [3](phase3/)  | Cloud Platform fundamentals|
-| [4](phase4/)  | DevOps fundamentals         |
-| [5](phase5/)  | Cloud Security fundamentals|
+| 0     | [Start from zero tech experience - Optional](phase0/README.md)  | 
+| 1     | [Networking and cloud fundamentals](phase1/README.md) |
+| 2     | [Linux fundamentals](phase2/README.md) |
+| 3     | [Cyber Security fundamentals](phase3/README.md)| 
+| 4     | [Cloud Security fundamentals](phase4/README.md)| 
 
-## Study Plan
 
-[Here is a 6 month study plan you can use that follows this guide](http://bootcamp.madebygps.com/)
+
+### Questions? Comments? Feedback?
+
+Please open an [Issue](https://github.com/soc-cy/soc-cy.github.io/issues)
+
+
+## What's next
+
+### [Go to Phase 0: Start from zero tech experience - Optional](phase0/README.md)
+
+### [Go to Phase 1: Networking and cloud fundamentals](phase1/README.md)
+
+___
+
+Note: In Resources section, you will leave this domain by accesing the links provided for references. Beware of external sites asking for your personal information (e.g. phone numbers, credit cards). You may become a victim of a phishing attack! We are not responsible for any such incidents.
+
+
+###### Credits:  [Freepik - Flaticon](https://www.flaticon.com/free-icons/security")
+
