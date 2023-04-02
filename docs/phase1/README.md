@@ -1,109 +1,57 @@
-# Phase 1: Linux Bash and Networking fundamentals
+# Phase 1: Networking and cloud fundamentals
 
-Author: [GPS](https://twitter.com/madebygps)
+## How does this phase apply to Cyber Security?
 
-## How does this phase apply to Cloud?
+Cybersecurity is the overall umbrella term. It involves securing everything, including the network. Because all devices in the world are connected to  each others by a network. So it is crucial to understand how networks works. And now many companies are getting into cloud technology. So its crucial to learn how cloud works and how to defend it. If you're already a network engineer or cloud engineer, then you can apply your skills to Cyber Security. 
+##  Resources & Things you should be able familiar with at the end of this phase
 
-The cloud is a bunch of Linux Servers networked together. Learning the fundamentals of how networking works, and how to interact with these servers via commands, and automating those commands via a script, is what this phase is about. If you're already a Linux admin or network engineer, you can apply your skills to the cloud.
 
-<!--truncate -->
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/mxVq2DlPDWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+| Topics      | 
+| :------------- | 
+| [Types of Area Network](https://www.geeksforgeeks.org/types-of-area-networks-lan-man-and-wan/) | 
+| [Network Topology ](https://www.geeksforgeeks.org/types-of-network-topology/	) | 
+| [Network devices like router, switch, NIC, NAS](https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/	) | 
+| [Firewall and its types](https://www.geeksforgeeks.org/types-of-network-firewall/) | 
+| [NAT](https://www.geeksforgeeks.org/network-address-translation-nat/) | 
+| [IP & Subnets : Reference 1](https://www.guru99.com/types-of-ip-addresses.html) | 
+| [IP & Subnets : Reference 2](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html	) | 
+| [(Video): IP & Subnets : Reference 3](https://www.youtube.com/watch?v=s_Ntt6eTn94) | 
+| [DNS](https://www.cloudflare.com/en-in/learning/dns/what-is-dns/	) | 
+| [DHCP](https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/	) | 
+| [Proxy server](https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/	) |
+| [VPN](https://www.geeksforgeeks.org/types-of-virtual-private-network-vpn-and-its-protocols/) | 
+| [Active directory](https://www.techtarget.com/searchwindowsserver/definition/Active-Directory) | 
+| [What is ports and Protocols]( https://www.speedguide.net/faq/what-are-ports-and-protocols-75) | 
+| [Important network Protocols](https://www.baeldung.com/cs/popular-network-protocols		) | 
+| [Important network ports ](https://www.cloudflare.com/en-in/learning/network-layer/what-is-a-computer-port/			) | 
+| [Spanning Tree Protocol](https://www.techtarget.com/searchnetworking/definition/spanning-tree-protocol ) | 
+| [SSL,TLS](https://www.csoonline.com/article/3246212/what-is-ssl-tls-and-how-this-encryption-protocol-works.html	) | 
+| [Domain vs Workgroups](https://www.geeksforgeeks.org/difference-between-domain-and-workgroup/			) | 
+| [DMZ](https://www.fortinet.com/resources/cyberglossary/what-is-dmz) | 
+| [OSI  Layers](https://www.cloudflare.com/en-in/learning/ddos/glossary/open-systems-interconnection-model-osi/) | 
+| [TCP/IP](https://www.javatpoint.com/computer-network-tcp-ip-model) | 
+| [TCP vs UDP ](https://www.geeksforgeeks.org/differences-between-tcp-and-udp/) | 
+| [3 way handshake](https://www.geeksforgeeks.org/tcp-3-way-handshake-process/	) | 
+| [Web Application Firewall (WAF)](https://www.f5.com/services/resources/glossary/web-application-firewall	) | 
+| [CDN](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/	) | 
+| [Cloud Basics](https://www.cloudflare.com/en-in/learning/cloud/what-is-the-cloud/) | 
+| [Cloud Load Balancing](https://www.geeksforgeeks.org/load-balancing-in-cloud-computing/) | 
 
-## How to break down this phase
-
-I would suggest spending time on these three topics and this timeline:
-
-| Order | Topic
-|-------|---------------------------------
-| 1 | Introduction to Bash Commands |
-| 2 | Introduction to Bash Scripting  |         |
-| 3 | Introduction to Networking|          |
-
-Of course feel free to spend as much time as you'd like, people have asked for a timeline and breakdown so I've added it.
-
-## Resources
-
-| Topic      | Title    |  Notes     | Tips |
-| :------------- | ---------- | ----------- | :----------- |
-|  Bash| [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)   | This book made learning Linux FUN! It's pretty easy to follow and take a chapter day by day.   | You don't need to read the whole thing, the first 9 chapters cover most of what you need to know.
-| Bash  | [The Linux Command Line](https://nostarch.com/tlcl2) | I used this more as a reference to reinforce topics from the first book. | Optional, but helpful |
-Bash for Beginners | [YouTube Video Series](https://youtu.be/qALScO3E61I) | An introduction to Bash!| A 20 part YouTube series covering the fundamentals of Bash.
-Test your Bash skills with OverTheWire! Bandit Game |[Bandit](https://overthewire.org/wargames/bandit/) | A game to teach you the fundamental Bash commands you'll need for cloud and even security | This will cover more than the fundamentals. Similar to Linux Basics for hackers, it has a security focus.
-| Bash Scripting   | [Introduction to Bash scripting](https://youtu.be/_n5ZegzieSQ) | Fantastic intro to bash scripting, Joe Collins voice is soothing!| This will introduce you to concepts you'll use in the next phase.
-| Networking   | [Networking basics (2020)](https://www.youtube.com/watch?v=_IOZ8_cPgu8) | This 15 minute video covers all the essential networking concepts at a high level.  | Spend a day watching this and Googling each concept. Read more on each concept on your own.
-Networking | [Fundamentals of computer networking](https://learn.microsoft.com/en-us/training/modules/network-fundamentals/) | You'll learn the fundamental principles of computer networking to prepare you for the Azure admin and developer learning paths. | Read this after the previous video.
-Networking | [Azure networking services overview](https://learn.microsoft.com/azure/networking/fundamentals/networking-overview) | You'll learn the fundamental principles of computer networking to prepare you for the Azure admin and developer learning paths. | Optional, but I think it's a great time to introduce yourself to cloud services in the networking category, in this case Azure.
-
-## Projects
-
-Here are some projects to reinforce what you've learned in this phase. I recomenned blogging or creating video content on your projects.
-
- Title    | Resource     | Notes
- :---------- | :----------- | :----------- |
- Install Linux on a computer   | Research a distro and install it (We like [Pop!_OS](https://pop.system76.com/)) | No bettter way to learn Linux than using it!
-Setup a [LAMP server](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) | A pretty popular Linux admin task. |
- Deploy a NAS server | Checkout [FreeNAS](https://www.freenas.org/) |
- Deploy your own cloud | Checkout [NextCloud](https://nextcloud.com/) | A fun way to create your own private cloud.
-  Convert video files | Checkout [ffmpeg](https://ffmpeg.org/ffmpeg.html) use it to write a script that converts a .mov file to mp4 | Great way to practice scripting skills.
-
-## Things you should be able familiar with at the end of this phase
-
-### Commands
-
-- Navigate with the `cd` command.
-- How to list the contents of a directory and using the `ls` command.
-- Create, copy, move, rename, directories and files with `mkdir`, `cp`, `rm`, and `touch` commands.
-- Find things with `locate`, `whereis`, `which`, and `find` commands.
-- Understand how to learn more about commands with the `which`, `man`, and `--help` commands.
-- Familiar with finding logs details in `/var/log`
-- How to display the contents of a file with `cat`, `less`, `more`, `tail`, `head`.
-- Filtering with `grep` and `sed`.
-- Redirection of standard input, output and error with `>` operator and `tee` command.
-- How to use pipelines with the `|` operator.
-- Manipulate files with `nano` or `vim`.
-- Install and uninstall packages. Depends on distro, debian based use `apt`.
-- Control permissions with `chown`, `chgrp`, `chmod` commands.
-- Creating users and the `sudo` command.
-- Process management with `ps`, `top`, `nice`, `kill`
-- Manage environment aud user defined variables with `env`, `set`, `export` commands.
-- Add directories to your `PATH`.
-- Compression and archiving with `tar`, `gzip`, `gunzip`.
-- How to access a Linux server with `ssh`.
-
-### Networking
-
-Concepts you should be familiar with.
-
-- OSI Model
-- IP Addresses
-- MAC Addresses
-- Routing and Switching
-- TCP/IP
-- TCP and UDP
-- DNS
-- VPN tunneling
-- TLS and SSL
-
-### Bash Scripting
-
-- What is a shell?
-- What is Bash?
-- Why does a script have to start with #!?
-- What is a variable and how to use them
-- How to accept user input
-- How to execute a script
+### Additional Resources
+| Topics      | 
+| :------------- | 
+|[Computer Network Notes](https://media-exp1.licdn.com/dms/document/C561FAQGzhtpQyEYyhQ/feedshare-document-pdf-analyzed/0/1648013922467?e=2147483647&v=beta&t=I-bwxWsuaZmYrJ6Ok09wJE_kOiOwYZSVd-_NwXvJgW0) |
 
 ## Certifications you might want to look into
 
-There are several Linux certifications and you can chose to study for any of them really, but a lot of them cover WAY more than what you need to know for a solid foundation and are more focused on Linux administration.
+There are TONS of networking certifications out there, and they are more focused on giving you a lot of knowledge so you can become a networking engineer/specialist, again at an introductory level, it's a little overkill. If you did want to get one, take a look at the [Cisco certifications](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html) which are pretty much industry standard and/or [Comptia Network+](https://www.comptia.org/certifications/network). And for cloud fundamentals, you can take [Microsoft AZ-900](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900) (You can claim free exam vouchers by attending virtual workshop condudcted by Microsoft. Refer google for more info).
 
-- [LPI essentials](https://www.lpi.org/our-certifications/linux-essentials-overview)
-- [RedHat](https://www.redhat.com/en/services/training-and-certification)
-- [Linux Foundation](https://training.linuxfoundation.org/certification-catalog/)
-- [Oracle](https://education.oracle.com/oracle-certification-path/pFamily_358)
-- [LPI](https://www.lpi.org/)
-- [Comptia Linux+](https://www.comptia.org/certifications/linux)
+At the end of the day, its overkill. But if you want to take them, go for it :)
+  
+## What's next
 
-There are also TONS of networking certifications out there, and similar to the Linux ones, they are more focused on giving you a lot of knowledge so you can become a networking engineer/specialist, again at an introductory level, it's a little overkill. If you did want to get one, take a look at the [Cisco certifications](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html) which are pretty much industry standard and/or [Comptia Network+](https://www.comptia.org/certifications/network)
+### [Go to Phase 2: Linux fundamentals](../phase2/README.md)
 
-At the end of the day, if you want to take them, go for it :)
+___
+
+Note: In Resources section, you will leave this domain by accesing the links provided for references. Beware of external sites asking for your personal information (e.g. phone numbers, credit cards). You may become a victim of a phishing attack! We are not responsible for any such incidents.
