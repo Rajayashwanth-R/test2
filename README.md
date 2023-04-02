@@ -1,40 +1,47 @@
-# Welcome
-
-[![Azure Static Web Apps CI/CD](https://github.com/learntocloud/learn-to-cloud/actions/workflows/azure-static-web-apps-agreeable-forest-05e8c1b0f.yml/badge.svg?branch=main)](https://github.com/learntocloud/learn-to-cloud/actions/workflows/azure-static-web-apps-agreeable-forest-05e8c1b0f.yml)
-
-## What is Learn to Cloud?
-
-Learn to Cloud is a GUIDE (not a book or course) that originated from [this tweet](https://twitter.com/madebygps/status/1406258053427740672?lang=en). The goal is to provide an outline of skills you need to learn to get into Cloud Computing. At the end of it you should have the technical knowledge for roles like:
-
-- System administrator.
-- Cloud Support Engineer.
-- Cloud Administrator.
-
-## How to get started?
-
-Our website is live [here](https://learntocloud.guide)
 
 
-## Questions? Comments? Feedback?
+# Welcome to soccy
 
-Please open an [Issue](https://github.com/learntocloud/learn-to-cloud/issues)
 
-## Roadmap
+**[Web version here](https://soc-cy.github.io/#/)**
 
-Take a look at our [backlog](https://github.com/orgs/learntocloud/projects/2) for a full list of proposed features (and known issues).
 
-## Contributing
+### One Stop to learn Cyber Security Fundamentals
 
-We have 2 areas for contribution:
 
-### Engineering
+SOCCY is not a book or course. Its a free GUIDE  based on our experiences. The goal is to provide an outline of skills you need to learn to get into Cyber Secuirty. At the end of it you should have the basic technical knowledge for roles like:
 
-We would love to be your first PR! or any PR for that matter. Take a look at our [backlog](https://github.com/orgs/learntocloud/projects/2) and comment on an issue you'd like to work on and we can get you started.
+- SOC Analsyst
+- Cyber Secuirty Analyst
+- Information Security Analyst
 
-### Content
+We tried to keep it as general and using the most popular options (in terms of content, community, and jobs) as possible. 
 
-If you have ideas for updating the guide content, please open a PR and we would take a look at it.
 
-## License
+| Order | Topic                           | 
+|-------|---------------------------------|
+| 0     | [Start from zero tech experience - Optional](phase0/README.md)  | 
+| 1     | [Networking and cloud fundamentals](phase1/README.md) |
+| 2     | [Linux fundamentals](phase2/README.md) |
+| 3     | [Cyber Security fundamentals](phase3/README.md)| 
+| 4     | [Cloud Security fundamentals](phase4/README.md)| 
 
-Distributed under the MIT License. See [LICENSE](/LICENSE) for more information.
+
+
+### Questions? Comments? Feedback?
+
+Please open an [Issue](https://github.com/soc-cy/soc-cy.github.io/issues)
+
+
+## What's next
+
+### [Go to Phase 0: Start from zero tech experience - Optional](phase0/README.md)
+
+### [Go to Phase 1: Networking and cloud fundamentals](phase1/README.md)
+
+___
+
+Note: In Resources section, you will leave this domain by accesing the links provided for references. Beware of external sites asking for your personal information (e.g. phone numbers, credit cards). You may become a victim of a phishing attack! We are not responsible for any such incidents.
+
+
+###### Credits:  [Freepik - Flaticon](https://www.flaticon.com/free-icons/security")
